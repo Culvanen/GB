@@ -1,0 +1,22 @@
+settings:
+  # Skin that all banker NPC's use, currently not working for some reason.
+  banker-skin: BritishBankers
+
+  # Nametag that all bankers use, can not be longer than 16 chars.
+  banker-nametag: Banker
+
+  # Default banker slots given to all players
+  default-slots: 5
+
+  # Rows of items per bank/bank slot. 1 row has 9 item holders, 4 is a chest size.
+  bank-rows: 4
+  slot-rows: 4
+
+  # Sort type used to sort items in bank slot, available: ALPHABETIC
+  sorting: ALPHABETIC
+
+  # Economy settings, requires vault.
+  economy:
+    enabled: true
+    slot-cost: 20.0
+    progressive-multiplier: 2.0
